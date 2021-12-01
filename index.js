@@ -34,7 +34,7 @@ async function run() {
 }
 run().catch(console.dir);
 
-// Root route message
+// Root route 
 app.get("/", (req,res)=>{
     res.send("Hello Samiul");
 })
